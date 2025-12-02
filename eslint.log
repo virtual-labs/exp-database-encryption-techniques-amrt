@@ -1,0 +1,140 @@
+
+/home/runner/work/exp-database-encryption-techniques-amrt/exp-database-encryption-techniques-amrt/experiment/simulation/js/main.a05f16d7.js
+  2:3741    warning  Empty block statement                                                      no-empty
+  2:6366    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7445    warning  Empty block statement                                                      no-empty
+  2:10475   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:10575   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:10658   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11115   warning  Unexpected combined character in character class                           no-misleading-character-class
+  2:12697   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:14912   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:17030   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:17060   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:17179   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:17240   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:20203   warning  Unexpected control character(s) in regular expression: \x00, \x1f          no-control-regex
+  2:22268   warning  Expected to return a value in method 'get'                                 getter-return
+  2:22960   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:23280   warning  Invalid typeof comparison value                                            valid-typeof
+  2:23454   warning  Invalid typeof comparison value                                            valid-typeof
+  2:30778   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:32351   warning  'process' is not defined                                                   no-undef
+  2:32376   warning  'process' is not defined                                                   no-undef
+  2:51464   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:65366   warning  Empty block statement                                                      no-empty
+  2:70948   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:76230   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:77348   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:79038   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:80040   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:85612   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:88660   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:92820   warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:100012  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:100104  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:100114  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:100192  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:100585  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:100659  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:100669  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:100737  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:100855  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:101038  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:101069  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:101187  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:101466  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:101497  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:101601  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:101942  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:101973  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:102041  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:102253  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:102287  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:102355  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:102453  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:102484  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:102550  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:104626  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:105827  warning  Empty block statement                                                      no-empty
+  2:106104  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:109286  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:111677  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:112406  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:113348  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:114001  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:120269  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:121260  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:125758  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:131907  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:132724  warning  Empty block statement                                                      no-empty
+  2:133481  warning  Empty block statement                                                      no-empty
+  2:140562  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:140749  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:141950  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:142024  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:143414  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:144824  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:146040  warning  Unexpected control character(s) in regular expression: \x00                no-control-regex
+  2:146599  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:151205  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:151768  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:152113  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:152513  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:152627  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:152795  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:153061  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:153539  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:153678  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:153854  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:153936  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:159718  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:160849  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:163367  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:173587  warning  'navigation' is not defined                                                no-undef
+  2:173616  warning  'navigation' is not defined                                                no-undef
+  2:173656  warning  'navigation' is not defined                                                no-undef
+  2:173803  warning  'navigation' is not defined                                                no-undef
+  2:173845  warning  'navigation' is not defined                                                no-undef
+  2:173894  warning  'navigation' is not defined                                                no-undef
+  2:173975  warning  'navigation' is not defined                                                no-undef
+  2:174020  warning  'navigation' is not defined                                                no-undef
+  2:174072  warning  'navigation' is not defined                                                no-undef
+  2:175925  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  2:176028  warning  Empty block statement                                                      no-empty
+  2:197975  warning  'process' is not defined                                                   no-undef
+  2:198000  warning  'process' is not defined                                                   no-undef
+  2:203303  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  2:203347  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  2:216767  warning  Empty block statement                                                      no-empty
+  2:216893  warning  Empty block statement                                                      no-empty
+  2:216982  warning  Empty block statement                                                      no-empty
+  2:217274  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:217538  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:217574  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:251990  warning  'setImmediate' is not defined                                              no-undef
+  2:252824  warning  Unreachable code                                                           no-unreachable
+  2:255352  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  2:255396  warning  '__REACT_DEVTOOLS_GLOBAL_HOOK__' is not defined                            no-undef
+  2:256353  warning  'e' is defined but never used                                              no-unused-vars
+  2:256637  warning  'i' is defined but never used                                              no-unused-vars
+  2:258996  warning  'i' is a function                                                          no-func-assign
+  2:260260  warning  'r' is assigned a value but never used                                     no-unused-vars
+  2:263855  warning  'l' is assigned a value but never used                                     no-unused-vars
+  2:270418  warning  'o' is assigned a value but never used                                     no-unused-vars
+  2:270429  warning  's' is assigned a value but never used                                     no-unused-vars
+  2:270431  warning  'c' is assigned a value but never used                                     no-unused-vars
+  2:270454  warning  'f' is assigned a value but never used                                     no-unused-vars
+  2:270456  warning  'p' is assigned a value but never used                                     no-unused-vars
+  2:270493  warning  'h' is assigned a value but never used                                     no-unused-vars
+  2:270495  warning  'm' is assigned a value but never used                                     no-unused-vars
+  2:277139  warning  'o' is assigned a value but never used                                     no-unused-vars
+  2:282186  warning  'r' is assigned a value but never used                                     no-unused-vars
+  2:282238  warning  'o' is assigned a value but never used                                     no-unused-vars
+  2:288044  warning  'i' is assigned a value but never used                                     no-unused-vars
+  2:288053  warning  'o' is assigned a value but never used                                     no-unused-vars
+  2:288067  warning  's' is assigned a value but never used                                     no-unused-vars
+  2:294193  warning  'r' is assigned a value but never used                                     no-unused-vars
+
+✖ 135 problems (0 errors, 135 warnings)
+
