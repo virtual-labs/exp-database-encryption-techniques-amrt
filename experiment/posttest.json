@@ -2,35 +2,103 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which type of encryption protects data stored in database files, logs, and backups?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Column-Level Encryption",
+        "b": "Network Encryption",
+        "c": "Transparent Data Encryption (TDE)",
+        "d": "Application-Level Encryption"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Column-level encryption secures only specific columns.",
+        "b": "Network encryption protects data during transmission.",
+        "c": "TDE encrypts database files, logs, and backups automatically.",
+        "d": "Application-level encryption is handled outside the database."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "At which level does Transparent Data Encryption (TDE) operate?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Column level",
+        "b": "Row level",
+        "c": "Database storage level",
+        "d": "Network level"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Column-level encryption works on individual columns.",
+        "b": "Row-level encryption is not used in TDE.",
+        "c": "TDE operates at the database storage level.",
+        "d": "Network-level encryption protects data in transit."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following actions requires decryption of encrypted data?",
+      "answers": {
+        "a": "Storing encrypted data in the database",
+        "b": "Backing up encrypted database files",
+        "c": "Reading sensitive data by an authorized user",
+        "d": "Encrypting data during insertion"
+      },
+      "explanations": {
+        "a": "Data is encrypted before storage.",
+        "b": "Backups remain encrypted under TDE.",
+        "c": "Authorized users must decrypt data to read it.",
+        "d": "Encryption occurs before data is stored."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is NOT a benefit of database encryption?",
+      "answers": {
+        "a": "Protection against unauthorized data access",
+        "b": "Confidentiality of sensitive information",
+        "c": "Automatic improvement in database performance",
+        "d": "Protection of data stored on disk"
+      },
+      "explanations": {
+        "a": "Encryption prevents unauthorized access.",
+        "b": "Encryption ensures data confidentiality.",
+        "c": "Encryption does not improve database performance.",
+        "d": "Encryption protects stored data."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is column-level encryption considered a fine-grained security technique?",
+      "answers": {
+        "a": "It encrypts the entire database automatically",
+        "b": "It encrypts only selected sensitive columns",
+        "c": "It encrypts all network communications",
+        "d": "It encrypts backup files only"
+      },
+      "explanations": {
+        "a": "This describes TDE, not column-level encryption.",
+        "b": "Column-level encryption targets specific sensitive columns.",
+        "c": "Network encryption protects data in transit.",
+        "d": "Backup encryption is part of TDE."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which factor is essential to ensure the effectiveness of database encryption?",
+      "answers": {
+        "a": "Large database size",
+        "b": "High network bandwidth",
+        "c": "Proper encryption key management",
+        "d": "Frequent database indexing"
+      },
+      "explanations": {
+        "a": "Database size does not affect encryption effectiveness.",
+        "b": "Network bandwidth is unrelated to encryption security.",
+        "c": "Secure key management is critical for encryption and decryption.",
+        "d": "Indexing does not improve encryption security."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
