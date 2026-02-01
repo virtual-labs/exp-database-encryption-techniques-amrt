@@ -1,1 +1,0 @@
-The objective of this experiment is to protect sensitive data using encryption techniques. The outcome of this experiment is to understand and implement methods for securing data at rest using built-in database encryption tools.
