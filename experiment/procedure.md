@@ -1,57 +1,53 @@
-**Step 1: Introduction & Database Setup**
 
-**Understand Database Encryption Concepts** – Recognize the difference between plaintext and encrypted data, and learn about different encryption approaches such as column-level versus full database encryption.
-<br><br>
-<img src="images/step1.png" title="" />  
-&nbsp;
 
-**Initialize Sample Database** – Create a database with customer records, populate it with sample data including sensitive fields such as name, email address, password, and credit card number (all stored in plaintext), and confirm that all sensitive data is initially stored unencrypted.
-<br><br>
-<img src="images/step2.png" title="" />  
-&nbsp;
-<img src="images/step3.png" title="" />  
-&nbsp;
+### **Step 1: Introduction and Learning Concepts**
+1. Read the overview of database encryption.
+2. Understand the differences between **Column-Level Encryption** and **Transparent Data Encryption (TDE)**.
+3. Observe how encryption converts plaintext data into unreadable ciphertext to prevent unauthorized access.
+4. Click **"Start Simulation →"** to begin the process.
 
-**Step 2 : Implement Column-Level Encryption**
 
-**Select Columns for Encryption** – Choose specific sensitive columns to encrypt, with recommended selections being the password field and the credit card number field.
+<div><img src="./images/encryp1.png" ></div>
 
-<br><br>
-<img src="images/step4.png" title="" />  
-&nbsp;
 
-**Apply AES Encryption to Selected Columns** – Use database-specific AES encryption functions to encrypt the selected columns and update all existing records with the encrypted values.
-<br><br>
-<img src="images/step5.png" title="" />  
-&nbsp;
+### **Step 2: Database Setup**
+1. Click **"Populate Database with Records"** to initialize a sample customer database.
+<div><img src="./images/encrypt2.png" ></div>
+2. Explore the loaded records in the **"View Database"** tab.
+3. Identify sensitive fields such as **Passwords** and **Credit Card Numbers** that are currently stored in **plaintext**.
+<div><img src="./images/encrypt3.png" ></div>
+4. Use the **"Add Customers"** tab to manually add new records and see how unprotected data is exposed.
+5. Click **"Next: Column Encryption →"** to proceed.
 
-**Verify Column Encryption** – Confirm that the encrypted columns display ciphertext instead of plaintext, and verify that the encryption flag is set to TRUE for all encrypted records.
-<br><br>
-<img src="images/step6.png" title="" />  
-&nbsp;
+### **Step 3: Implementing Column-Level Encryption**
+1. Learn about AES (Advanced Encryption Standard) encryption.
+2. Select the specific columns you want to protect (e.g., Email Address, Password, Credit Card).
+3. Click **"Encrypt Selected Columns"** to apply encryption to the sensitive fields in the database.
+4. Toggle between **"Relational (SQL)"** and **"Non-Relational (JSON)"** views to see how the encrypted data looks in different database formats.
+<div><img src="./images/encrypt4.png" ></div>
+5. Click **"Next: Transparent Data Encryption →"** to continue.
 
-**Step 4: Implement Transparent Data Encryption (TDE)**
+### **Step 4: Enabling Transparent Data Encryption (TDE)**
+1. Select a database type ("Relational" or "Non-Relational") to see its TDE implementation details.
+<div><img src="./images/encrypt5.png" ></div>
+2. Click "Enable TDE" to encrypt the entire database at the file level.
+<div><img src="./images/encrypt6.png" ></div>
+3. Observe the "Database File Structure" panel to see how data files, log files, and backups are secured.
+4. Verify that the encryption status badges now reflect "TDE Encrypted".
+5. Click "Next: Security Challenges →" to move to the testing phase.
 
-**Select Database Type** – Identify whether a relational (SQL) database such as Oracle, SQL Server, MySQL, or PostgreSQL is being used, or a non-relational database, to determine the appropriate TDE implementation method.
-<br><br>
-<img src="images/step7.png" title="" />  
-&nbsp;
-
-**Enable TDE** – Execute the specific Transparent Data Encryption (TDE) enablement commands for your DBMS, such as creating a database encryption key with AES_256 and enabling encryption on the database using server certificates.
-<br><br>
-<img src="images/step8.png" title="" />  
-&nbsp;
-
-**Step 5: Test Encryption Effectiveness**
-
-**Simulate Unauthorized Access** – Attempt to decrypt the data without the proper encryption key, verify that the "ACCESS DENIED - Invalid encryption key" error message appears, confirm that the encrypted data remains unreadable, and document all failed decryption attempts.
-<br><br>
-<img src="images/step10.png" title="" />  
-&nbsp;
-
-**Step 6: Implement Backup Protection**
-
-**Create Encrypted Backups**– Use backup commands with encryption options to create secure, encrypted backups of the database.
-<br><br>
-<img src="images/step12.png" title="" />  
-&nbsp;
+### **Step 5: Security Testing and Decryption**
+1. This step demonstrates the effectiveness of encryption and the importance of key management.
+<div><img src="./images/encrypt7.png" ></div>
+2. **For Column-Level Encryption (CLE):**
+    - Click **"Generate CLE Key"** to create a decryption key.
+<div><img src="./images/encrypt8.png" ></div>
+    - Click **"Copy"** to copy the key to your clipboard.
+    - Click **"Decrypt CLE Data"**, paste the key in the popup, and observe the data returning to plaintext.
+<div><img src="./images/encrpt9.png" ></div>
+3. **For Transparent Data Encryption (TDE):**
+    - Click **"Generate TDE Key"** and copy it.
+    - Click **"Decrypt TDE Data"**, paste the key, and witness the database files becoming accessible again.
+<div><img src="./images/encrpt10.png" ></div>
+4. Experiment with entering a **"Wrong Key"** to see how encryption effectively blocks unauthorized access.
+5. Once finished, you can click **"Restart Simulation ↺"** to try different encryption configurations.
