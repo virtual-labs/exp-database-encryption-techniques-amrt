@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the primary purpose of data encryption in databases?",
+      "answers": {
+        "a": "To increase database performance",
+        "b": "To protect sensitive data from unauthorized access",
+        "c": "To reduce data storage size",
+        "d": "To improve query execution speed"
+      },
+      "explanations": {
+        "a": "Encryption does not focus on performance improvement.",
+        "b": "Encryption ensures confidentiality by protecting data from unauthorized access.",
+        "c": "Encryption does not aim to reduce storage size.",
+        "d": "Encryption is not used to optimize query speed."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does the term 'data at rest' refer to in database security?",
+      "answers": {
+        "a": "Data being transmitted over a network",
+        "b": "Data currently being processed by applications",
+        "c": "Data stored on disks, backups, or database files",
+        "d": "Temporary data stored in cache memory"
+      },
+      "explanations": {
+        "a": "This refers to data in transit, not at rest.",
+        "b": "This refers to data in use.",
+        "c": "Data at rest is data stored on physical or virtual storage.",
+        "d": "Cache data is considered temporary data in use."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which encryption technique encrypts only specific columns in a database table?",
+      "answers": {
+        "a": "Transparent Data Encryption (TDE)",
+        "b": "Full Disk Encryption",
+        "c": "Column-Level Encryption",
+        "d": "Network Encryption"
+      },
+      "explanations": {
+        "a": "TDE encrypts the entire database, not individual columns.",
+        "b": "Full disk encryption applies at the storage level.",
+        "c": "Column-level encryption secures specific sensitive columns.",
+        "d": "Network encryption protects data during transmission."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is an example of data that should be encrypted using column-level encryption?",
+      "answers": {
+        "a": "Product names",
+        "b": "Employee department",
+        "c": "Credit card numbers",
+        "d": "Public announcements"
+      },
+      "explanations": {
+        "a": "Product names are not sensitive data.",
+        "b": "Department names are generally not considered sensitive data.",
+        "c": "Credit card numbers are highly sensitive and must be encrypted.",
+        "d": "Public announcements do not require encryption."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the main advantage of Transparent Data Encryption (TDE)?",
+      "answers": {
+        "a": "It requires changes to application code",
+        "b": "It encrypts data only during transmission",
+        "c": "It automatically encrypts database files without application changes",
+        "d": "It encrypts only selected database columns"
+      },
+      "explanations": {
+        "a": "TDE works transparently without code changes.",
+        "b": "TDE focuses on data at rest, not data in transit.",
+        "c": "TDE automatically encrypts database files, logs, and backups.",
+        "d": "This describes column-level encryption."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is proper key management important in database encryption?",
+      "answers": {
+        "a": "To improve database indexing",
+        "b": "To ensure encrypted data can be securely decrypted by authorized users",
+        "c": "To reduce database storage requirements",
+        "d": "To eliminate the need for encryption algorithms"
+      },
+      "explanations": {
+        "a": "Key management is unrelated to indexing.",
+        "b": "Secure key management ensures only authorized access to decrypted data.",
+        "c": "Encryption does not reduce storage usage.",
+        "d": "Encryption algorithms are still required."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

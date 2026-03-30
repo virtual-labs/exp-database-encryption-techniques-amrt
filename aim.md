@@ -1,0 +1,1 @@
+To protect sensitive data by implementing encryption techniques for securing data-at-rest using database encryption tools.

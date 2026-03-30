@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which type of encryption protects data stored in database files, logs, and backups?",
+      "answers": {
+        "a": "Transparent Data Encryption (TDE)",
+        "b": "Network Encryption",
+        "c": "Column-Level Encryption",
+        "d": "Application-Level Encryption"
+      },
+      "explanations": {
+        "a": "TDE encrypts database files, logs, and backups automatically.",
+        "b": "Network encryption protects data during transmission.",
+        "c": "Column-level encryption secures only specific columns.",
+        "d": "Application-level encryption is handled outside the database."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "At which level does Transparent Data Encryption (TDE) operate?",
+      "answers": {
+        "a": "Column level",
+        "b": "Database storage level",
+        "c": "Row level",
+        "d": "Network level"
+      },
+      "explanations": {
+        "a": "Column-level encryption works on individual columns.",
+        "b": "TDE operates at the database storage level.",
+        "c": "Row-level encryption is not used in TDE.",
+        "d": "Network-level encryption protects data in transit."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following actions requires decryption of encrypted data?",
+      "answers": {
+        "a": "Storing encrypted data in the database",
+        "b": "Backing up encrypted database files",
+        "c": "Reading sensitive data by an authorized user",
+        "d": "Encrypting data during insertion"
+      },
+      "explanations": {
+        "a": "Data is encrypted before storage.",
+        "b": "Backups remain encrypted under TDE.",
+        "c": "Authorized users must decrypt data to read it.",
+        "d": "Encryption occurs before data is stored."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is NOT a benefit of database encryption?",
+      "answers": {
+        "a": "Protection against unauthorized data access",
+        "b": "Confidentiality of sensitive information",
+        "c": "Protection of data stored on disk",
+        "d": "Automatic improvement in database performance"
+      },
+      "explanations": {
+        "a": "Encryption prevents unauthorized access.",
+        "b": "Encryption ensures data confidentiality.",
+        "c": "Encryption protects stored data.",
+        "d": "Encryption does not improve database performance."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is column-level encryption considered a fine-grained security technique?",
+      "answers": {
+        "a": "It encrypts only selected sensitive columns",
+        "b": "It encrypts the entire database automatically",
+        "c": "It encrypts all network communications",
+        "d": "It encrypts backup files only"
+      },
+      "explanations": {
+        "a": "Column-level encryption targets specific sensitive columns.",
+        "b": "This describes TDE, not column-level encryption.",
+        "c": "Network encryption protects data in transit.",
+        "d": "Backup encryption is part of TDE."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which factor is essential to ensure the effectiveness of database encryption?",
+      "answers": {
+        "a": "Large database size",
+        "b": "Proper encryption key management",
+        "c": "High network bandwidth",
+        "d": "Frequent database indexing"
+      },
+      "explanations": {
+        "a": "Database size does not affect encryption effectiveness.",
+        "b": "Secure key management is critical for encryption and decryption.",
+        "c": "Network bandwidth is unrelated to encryption security.",
+        "d": "Indexing does not improve encryption security."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
