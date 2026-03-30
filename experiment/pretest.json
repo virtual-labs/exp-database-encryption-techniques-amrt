@@ -56,13 +56,13 @@
       "question": "Which of the following is an example of data that should be encrypted using column-level encryption?",
       "answers": {
         "a": "Product names",
-        "b": "Employee attendance records",
+        "b": "Employee department",
         "c": "Credit card numbers",
         "d": "Public announcements"
       },
       "explanations": {
         "a": "Product names are not sensitive data.",
-        "b": "Attendance records are usually not highly sensitive.",
+        "b": "Department names are generally not considered sensitive data.",
         "c": "Credit card numbers are highly sensitive and must be encrypted.",
         "d": "Public announcements do not require encryption."
       },

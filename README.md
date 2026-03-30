@@ -4,7 +4,7 @@
 | :------------- | :------------------------------------------------------------------------ |
 | <b> Lab        | <b> Database Security                                                     |
 | <b> Experiment | <b> Securing Sensitive Information through Database Encryption Techniques |
-|  |
+|                |
 
 ### About the Experiment
 
